@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portfolio Ryan Immanuel</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio Ryan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="ms-auto ">
+                    <div class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#about_me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#contact">Contact Me</a>
+                        </li>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="home mt-5" id="home">
+        <div class="container">
+            <div class="row text-center rowheader">
+                <div class="col-lg-6 col-md-12 hometext">
+
+                    <h1 style="font-size: 60px;">I'm <span style="color:#1E88E5">Ryan Immanuel</span></h1>
+                    <h1 style="font-size: 60px;">From <span class="fw-bold">UKRIDA</span> </h1>
+                    <h4 class="title-text text-uppercase ">Informatics Technology Student</h4>
+                    <div class="homebtn">
+                        <div class="d-flex flex-row flex-wrap mt-3 justify-content-center">
+                            <button type="button" onclick="location.href='#contact';" class="btn btn-primary me-3 text-uppercase">hire
+                                me</button>
+                            <button type="button" onclick="window.open('CV Ryan Immanuel.pdf')" class="btn btn-outline-primary text-uppercase">Get cv</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 banner-image ">
+                    <img src="images/Ryan.jpg " alt="banner-img " class="gambar-saya">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about_area section_gap" id="about_me">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center"><img src="images/Gambardulu.jpg" class="gambar-saya imgradius" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"></div>
+                <div class="col-lg-6">
+
+                    <ul class="nav nav-tabs mt-3 justify-content-center" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="aboutme-tab" data-bs-toggle="tab" href="#aboutme" role="tab" aria-controls="aboutme" aria-selected="true">About Me</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="skills-tab" data-bs-toggle="tab" href="#skills" role="tab" aria-controls="skills" aria-selected="false">Skills</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="experience-tab" data-bs-toggle="tab" href="#experience" role="tab" aria-controls="experience" aria-selected="false">Experience</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content py-4" id="myTabContent">
+                        <div class="tab-pane fade show active" id="aboutme" role="tabpanel" aria-labelledby="aboutme-tab">
+                            <h2 class="mb-4">My Story</h2>
+                            <p>I am a student majoring in computer engineering at Kristen Krida Wacana University (UKRIDA) who was born in Jakarta on February 27th, 2002. I am very interested in the field of web development and also have a slight interest
+                                in graphic design. In my free time, I enjoy learning new things about technology and trying to develop my skills in creating innovative and engaging web applications
+                            </p>
+
+                        </div>
+                        <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                            <h2 class="mb-4">Skills</h2>
+                            <p>I have a good grasp of HTML, CSS, JavaScript, and SQL. I can create and develop websites with attractive and functional designs using these skills. I am also continuously learning and improving my abilities in this field to
+                                create more advanced and reliable websites.</p>
+                            <div class="row mt-5">
+                                <div class="col-lg-6">
+                                    <div class="progress-wrap">
+                                        <h3>HTML</h3>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                                <span>90%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="progress-wrap">
+                                        <h3>CSS</h3>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                                <span>70%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="progress-wrap">
+                                        <h3>Javascript</h3>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                                                <span>75%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="progress-wrap">
+                                        <h3>SQL</h3>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                                <span>85%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="resume-wrap d-flex align-item-stretch">
+                                        <div class="w-100">
+                                            <h2>Waiter</h2>
+                                            <span class="date">2018-2019</span> <span class="position"><i class="ion-ios-pin me-2"></i>Avenue House</span>
+                                            <p>Assisted in serving food to customers and provided excellent customer service to a satisfaction rate of 95%</p>
+                                        </div>
+                                    </div>
+                                    <div class="resume-wrap d-flex align-item-stretch">
+                                        <div class="w-100">
+                                            <h2>Website Developer</h2>
+                                            <span class="date">2021-2022</span> <span class="position"><i class="ion-ios-pin me-2"></i>University</span>
+                                            <p>Developed a West Java culture and arts website that displays information about the culture and arts of the region and presents dynamically updated content with a success rate of 90%.</p>
+                                        </div>
+                                    </div>
+                                    <div class="resume-wrap d-flex align-item-stretch">
+                                        <div class="w-100">
+                                            <h2>Mobile Developer</h2>
+                                            <span class="date">2022-2023</span> <span class="position"><i class="ion-ios-pin me-2"></i>University</span>
+                                            <p>Developed a mobile car renting app and presents dynamically updated content with a success rate of 80%.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio_area section_gap" id="portfolio">
+        <div class="container">
+            <div class="mb-5">
+                <h3 class="text-center fw-bold judulkategori">Portfolio</h3>
+                <hr class="mx-auto">
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="card shadow h-100"><img src="images/Jabary.jpg" class="card-img-top rounded-top" alt="Themesberg office">
+                        <div class="card-body"><span class="fas fa-code me-2"></span>HTML, CSS, JS, PHP</span>
+                            <h3 class="h5 card-title mt-3">Jabary - Website Kesenian dan Kebudayaan Jawa Barat</h3>
+                            <p class="card-text">A website that presents content about the arts and culture of West Java.</p>
+                        </div>
+                        <div class="card-footer mb-3" style="border: none; background-color: transparent;">
+                            <a href="http://students.ukrida.ac.id/informatics/20212/PemrogramanWeb2/412020007_Ryan_Immanuel/index.php" target="_blank" class="btn btn-primary btn-sm">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">
+                    <div class="card shadow h-100"><img src="images/Sispak.png" class="card-img-top rounded-top" alt="Themesberg office">
+                        <div class="card-body"><span class="fas fa-code me-2"></span>HTML, CSS, JS, PHP</span>
+                            <h3 class="h5 card-title mt-3">Sistem Pakar Gigi dan Mulut</h3>
+                            <p class="card-text">An expert system website that helps diagnose teeth and mouth.</p>
+                        </div>
+                        <div class="card-footer mb-3" style="border: none; background-color: transparent;">
+                            <a href="https://github.com/ryanimm/Sistem-Pakar-Semester-5-/" target="_blank" class="btn btn-primary btn-sm">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="card shadow h-100"><img src="images/Street_Runner.png" class="card-img-top rounded-top" alt="Themesberg office">
+                        <div class="card-body"><span class="fas fa-code me-2"></span>HTML, Three.Js, CSS</span>
+                            <h3 class="h5 card-title mt-3">Three.Js Game - Wild Run</h3>
+                            <p class="card-text">A running and obstacle course game based on the three.js JavaScript library.</p>
+                        </div>
+                        <div class="card-footer mb-3" style="border: none; background-color: transparent;">
+                            <a href="https://github.com/ryanimm/Project-Komputer-Grafik" target="_blank" class="btn btn-primary btn-sm">Open</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Contact_area section_gap" id="contact" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+        <div class="container mb-3">
+            <div class="mb-5">
+                <h3 class="text-center fw-bold judulkategori">Contact Me</h3>
+                <hr class="mx-auto">
+
+                <ul class="socil-icon list-unstyled  d-flex justify-content-center">
+                    <li>
+                        <a href="https://twitter.com/Ryimm1" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/ryanimm_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ryanimm" target="_blank"><i class="fab fa-github"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-5 mb-5 mb-lg-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6364789186255!2d106.78250071483794!3d-6.179389062270552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6f7b098f70f%3A0xb4da2439ad66c3ca!2sGg.%20Manggis%20XI%20No.26B%2C%20RT.5%2FRW.4%2C%20Tj.%20Duren%20Sel.%2C%20Kec.%20Grogol%20petamburan%2C%20Kota%20Jakarta%20Barat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2011470!5e0!3m2!1sen!2sid!4v1677768217047!5m2!1sen!2sid"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+                <div class="col-12 col-lg-6 offset-lg-1">
+                    <form action="#" name="submit-to-google-sheet">
+                        <input class="form-control mb-3" name="name" type="text" placeholder="Name">
+                        <input class="form-control mb-3" name="email" type="email" placeholder="E-mail">
+                        <textarea class="form-control mb-3" name="message" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                        <button type="submit" class="btn btn-primary w-100">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="copyright">
+        <div class="container py-2">
+            <p class="text-center my-3">Copyright © by Ryan Immanuel</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
