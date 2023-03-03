@@ -112,7 +112,7 @@ span.date {
     margin-right: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .hometext {
         padding-top: 5rem;
     }
